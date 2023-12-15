@@ -3,24 +3,28 @@
 import java.util.Scanner;
 public class Q06{
     public static void main(String args[]){
+        //Scanner definition
         Scanner s = new Scanner(System.in);
-        int a, b;                                                 //Initialization of variables
-        System.out.println("Enter the first number: ");         
-        a = s.nextInt();                                          //Taking integer as an input read by next.Int function
-        System.out.println("Enter the second number: ");
-        b = s.nextInt();                                          //Taking integer as an input read by next.Int function
+        
+        //Taking integer as an input read by next.Int function
+        System.out.print("Enter the first number: ");         
+        int a = s.nextInt();                                          
+        System.out.print("Enter the second number: ");
+        int b = s.nextInt();                                          
 
-        System.out.println("The First variable before the swap:        "+a);  //Printing the first variable before swapping
-        System.out.println("The Second variable before the swap:       "+b);  //Printing the second variable before swapping
+        //Printing the variables values before swapping
+        System.out.println("The First variable before the swap:        "+a);  
+        System.out.println("The Second variable before the swap:       "+b);  
 
         //Swaapping of variables without a temporary variable
         a = a + b;
         b = a - b;
         a = a - b;
-        
+
+        //Printing the variables values after swapping
         System.out.println(" ");
-        System.out.println("The First variable after the swap:         "+a);  //Printing the first variable after swapping
-        System.out.println("The Second variable after the swap:        "+b);  //Printing the second variable after swapping
+        System.out.println("The First variable after the swap:         "+a);  
+        System.out.println("The Second variable after the swap:        "+b);  
     }
     
 }

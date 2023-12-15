@@ -3,8 +3,10 @@
 import java.util.Scanner;
 public class Q18 {
     public static void main(String args[]){
+        //Scanner definition
         Scanner s = new Scanner(System.in);   
-        //                            Scanner definition
+        
+        //Taking input of integer numbers 
         System.out.print("Enter first number: ");
         int n1 = s.nextInt();
         System.out.print("Enter second number: ");

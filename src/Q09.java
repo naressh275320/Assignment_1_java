@@ -3,11 +3,17 @@
 import java.util.Scanner;
 public class Q09{
     public static void main(String args[]){
-        Scanner s = new Scanner(System.in);     //Scanner definition 
+        //Scanner definition 
+        Scanner s = new Scanner(System.in);
+
+        //Taking Octal as an input read by next.Int function
         System.out.print("Enter the Octal Number:                                      ");
-        int a = s.nextInt(8);                 //Taking Octal as an input read by next.Int function
-        String i = Integer.toHexString(a);        //Using the toHexString() to convert Integer to String of Hexa decimal Number
-        System.out.println("The binary value after addition of input variables:          "+i);   //Printing the octal number for the entered binary number
+        int a = s.nextInt(8);
+        
+        //Using the toHexString() to convert Integer to String of Hexa decimal Number
+        String i = Integer.toHexString(a);        
+        
+        //Printing the octal number for the entered binary number
+        System.out.println("After converting an octal number to a hexadecimal number:          "+i);   
     }
-    
 }

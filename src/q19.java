@@ -3,7 +3,10 @@
 import java.util.Scanner;
 public class Q19 {
     public static void main(String args[]){
-        Scanner s = new Scanner(System.in);                                 //Scanner definition
+        //Scanner definition
+        Scanner s = new Scanner(System.in);                                 
+        
+        //Taking integer input
         System.out.print("Enter the number: ");
         int n = s.nextInt();
 

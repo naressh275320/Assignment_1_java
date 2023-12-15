@@ -3,7 +3,10 @@
 import java.util.Scanner;
 public class Q16{
     public static void main(String args[]){
-        Scanner s = new Scanner(System.in);                  //Scanner definition
+        //Scanner definition
+        Scanner s = new Scanner(System.in);     
+        
+        //Taking input for number of lines of star pattern
         System.out.print("Enter number of line for the star pattern: ");
         int n= s.nextInt();
         

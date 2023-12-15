@@ -3,11 +3,14 @@
 import java.util.Scanner;
 public class Q10{
     public static void main(String args[]){
-        Scanner s = new Scanner(System.in);                                          //Scanner definition
+        //Scanner definition
+        Scanner s = new Scanner(System.in);      
+
+         //Taking integer as an input read by next.Int function
         System.out.print("Enter the First Number:                                      ");
-        int a = s.nextInt();                                                         //Taking integer as an input read by next.Int function
+        int a = s.nextInt();                                                        
         System.out.print("Enter the Second Number:                                     ");
-        int b = s.nextInt();                                                         //Taking Octal as an input read by next.Int function
+        int b = s.nextInt();                                                         
 
         //Comparison of two number
         if(a > b)

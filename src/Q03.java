@@ -3,10 +3,13 @@
 import java.util.Scanner;
 public class Q03 {
     public static void main(String args[]){
-        int a;
-        Scanner s = new Scanner(System.in);        //Scanner definition 
-        System.out.println("Enter a number to print it's multiplication table upto 10: ");
-        a = s.nextInt();                           //Taking integer as an input read by next.Int function 
+        //Scanner definition 
+        Scanner s = new Scanner(System.in);       
+
+        //Taking integer as an input read by next.Int function 
+        System.out.print("Enter a number to print it's multiplication table upto 10: ");
+        int a = s.nextInt();      
+
         System.out.println("The first 10 multiplication table for the number "+a);
         for(int i=1; i<=10; i++)
         {

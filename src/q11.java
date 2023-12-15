@@ -3,9 +3,15 @@
 import java.util.Scanner;
 public class Q11{
     public static void main(String args[]){
-        Scanner s = new Scanner(System.in);                                          //Scanner definition
+        //Scanner definition
+        Scanner s = new Scanner(System.in);                                          
+        
+        //Taking string input
+        System.out.println("Enter the string: ");
         String str = s.nextLine();
-        int l=0, d=0, sp=0, o=0;                                                     //Declaration of variables for counting purpose
+
+        //Declaration of variables for counting purpose
+        int l=0, d=0, sp=0, o=0;                                                     
         char[] ch = str.toCharArray();
         for(int i=0; i<str.length(); i++)
         {
@@ -26,6 +32,7 @@ public class Q11{
                 o++;
             }
         }
+        
         // Display the original string
         System.out.println("The string is : " + str );
         

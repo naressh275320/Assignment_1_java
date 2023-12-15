@@ -10,7 +10,10 @@ There must be one option for no order.
 import java.util.Scanner;
 public class Q20 {
     public static void main(String args[]){
-        Scanner s = new Scanner(System.in);                                 //Scanner definition
+        //Scanner definition
+        Scanner s = new Scanner(System.in);      
+        
+        //Declaration of arrays for counting purpose
         int a[] = new int[3];
         int b[] = new int[3];
         int c[] = new int[3];
@@ -19,7 +22,9 @@ public class Q20 {
         int cq[] = new int[3];
         char F = 'Y';
         int g = 0;
-        do{           // Do while is used because it can be run again and it will be runned one time for sure
+
+        // Do while is used because it can be run again and it will be runned one time for sure
+        do{           
             System.out.println(); 
             System.out.println("*******************************************DIVINE RESTAURANT MENU*******************************************");
             System.out.print("Enter the number for the section from which you want to order. 1)Veg, 2)Non-Veg, 3)Beverages, 4)No Order: ");
@@ -33,7 +38,8 @@ public class Q20 {
                     a[t] = 1;
                     System.out.print("Enter the number of quantity: ");
                     int m = s.nextInt();
-                    aq[t] = aq[t]+m;          //Increasing the quantity
+                    //Increasing the quantity
+                    aq[t] = aq[t]+m;          
                 }
                 g=1;
             }

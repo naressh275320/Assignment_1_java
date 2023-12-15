@@ -2,18 +2,21 @@
 
 public class Q05{
     public static void main(String args[]){
-        int a = 5, b = 8, t;                                                 //Initialization and declaration of variables
+        //Initialization and declaration of variables
+        int a = 5, b = 8, t;                                                 
         
-        System.out.println("The First variable before the swap:        "+a);  //Printing the first variable before swapping
-        System.out.println("The Second variable before the swap:       "+b);  //Printing the second variable before swapping
+        //Printing the variables values before swapping
+        System.out.println("The First variable before the swap:        "+a);  
+        System.out.println("The Second variable before the swap:       "+b);  
 
         //Swapping of Variables
         t = a;
         a = b;
         b = t;
         
+        //Printing the variables values after swapping
         System.out.println(" ");
-        System.out.println("The First variable after the swap:         "+a);  //Printing the first variable after swapping
+        System.out.println("The First variable after the swap:         "+a);  
         System.out.println("The Second variable after the swap:        "+b);  //Printing the second variable after swapping
 
     }
