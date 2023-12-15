@@ -1,7 +1,7 @@
 //4.	Write a Java program to print the area and perimeter of a rectangle. (use user input).
 
 import java.util.Scanner;
-public class q4 {
+public class Q04 {
     public static void main(String args[]){
         int l,b;
         Scanner s = new Scanner(System.in);                       //Scanner definition 

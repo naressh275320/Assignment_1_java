@@ -1,7 +1,7 @@
 //12.	Write a Java program to print the ASCII value of a given character.
 
 import java.util.Scanner;
-public class q12{
+public class Q12{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);                                    //Scanner definition
         System.out.print("Enter Character:   ");

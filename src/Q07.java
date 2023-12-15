@@ -1,7 +1,7 @@
 //7.	Write a Java program to add two binary numbers and divide them. (both in different program).
 
 import java.util.Scanner;
-public class q7{
+public class Q07{
     static public void main(String args[]){
         Scanner s = new Scanner(System.in);     //Scanner definition 
         int a,b,c,d;                            //Initialization of variables

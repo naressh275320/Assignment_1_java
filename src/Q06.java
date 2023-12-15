@@ -1,7 +1,7 @@
 //6.	In above program with user input and without using third variable.
 
 import java.util.Scanner;
-public class q6{
+public class Q06{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);
         int a, b;                                                 //Initialization of variables

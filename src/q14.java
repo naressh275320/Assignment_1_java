@@ -1,6 +1,6 @@
 //14.	Write a Java program to print numbers between 1 and 100 divisible by 3, 5 and both.
 
-public class q14{
+public class Q14{
     public static void main(String args[]){
         System.out.print("Numbers between 1 and 100 which are divisible by 3:       ");
         

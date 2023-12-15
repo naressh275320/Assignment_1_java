@@ -1,7 +1,7 @@
 //1.	Write a Java program to print the sum of two numbers, subtraction, multiplication, division by taking input from user.
 
 import java.util.Scanner;                
-public class q2{
+public class Q02{
     public static void main(String args[]){
         int a, b;
         Scanner s = new Scanner(System.in);       //Scanner definition 

@@ -1,7 +1,7 @@
 //9.	Write a Java program to convert an octal number to a hexadecimal number.
 
 import java.util.Scanner;
-public class q9{
+public class Q09{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);     //Scanner definition 
         System.out.print("Enter the Octal Number:                                      ");

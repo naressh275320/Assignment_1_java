@@ -1,7 +1,7 @@
 //8.	Write a Java program to convert a binary number to an octal number.
 
 import java.util.Scanner;
-public class q8{
+public class Q08{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);     //Scanner definition 
         System.out.print("Enter the binary Number:                                      ");

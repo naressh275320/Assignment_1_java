@@ -1,7 +1,7 @@
 //11.	Write a Java program to count letters, spaces, numbers and other characters in an input string.
 
 import java.util.Scanner;
-public class q11{
+public class Q11{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);                                          //Scanner definition
         String str = s.nextLine();

@@ -1,7 +1,7 @@
 //10.	Write a Java program to compare two numbers. (take user input).
 
 import java.util.Scanner;
-public class q10{
+public class Q10{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);                                          //Scanner definition
         System.out.print("Enter the First Number:                                      ");

@@ -1,10 +1,12 @@
 //15.	Take input of age of 3 people by user and determine oldest and youngest among them.
 
 import java.util.Scanner;
-public class q15{
+public class Q15{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);
+
         System.out.print("Enter the first persons age: ");
+        
         int x = s.nextInt();
         System.out.print("Enter the second persons age: ");
         int y = s.nextInt();

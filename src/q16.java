@@ -1,7 +1,7 @@
 //16.	Write a program triangle star Pattern.
 
 import java.util.Scanner;
-public class q16{
+public class Q16{
     public static void main(String args[]){
         Scanner s = new Scanner(System.in);                  //Scanner definition
         System.out.print("Enter number of line for the star pattern: ");

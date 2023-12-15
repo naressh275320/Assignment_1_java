@@ -1,6 +1,6 @@
 //5.	Write a Java program to swap two variables
 
-public class q5{
+public class Q05{
     public static void main(String args[]){
         int a = 5, b = 8, t;                                                 //Initialization and declaration of variables
         
