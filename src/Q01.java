@@ -1,6 +1,6 @@
 //1.	Write a Java program to print the sum of two numbers, subtraction, multiplication, division. (normal way)
 
-public class q1 {
+public class Q01 {
     public static void main(String args[]){
         int a = 6, b = 2;  //Initialization and Declaration of variables
         System.out.println("Addition of two number:        "+ (a+b));  //Displaying the output for addition of two declared variables
