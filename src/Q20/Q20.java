@@ -1,7 +1,7 @@
 /*Scenario: -  
 There is one hotel owner who have to designee a menu for this hotel. 
 Hotels have VEG, NOVEG section and Beverages.
-Each Veg, non-Veg section and Beverages have 3-3 items. (programmers-chose items as you wish).
+Each Veg, Non-Veg section and Beverages have 3-3 items. (programmers-chose items as you wish).
 TASK: -
 Take user ordered as per user wish.
 There must be one option for no order.
@@ -45,7 +45,7 @@ public class Q20 {
             }
             else if(n==2)
             {
-                System.out.print("Enter the number. 1) Chicken Biriyani, 2) Egg Noodles, 3)Kabab, 4)None: ");
+                System.out.print("Enter the number 1) Chicken Biriyani, 2) Egg Noodles, 3)Kabab, 4)None: ");
                 int p = s.nextInt();
                 if(p != 4){
                     p--;
